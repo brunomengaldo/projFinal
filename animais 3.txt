@@ -23,10 +23,10 @@ Y T T X K E F A E I F J H Q G U L N D S
 
 
 7
-macaco
-gato
-pato
-coelho
-tigre
-veado
-lagosta
+MACACO
+GATO
+PATO
+COELHO
+TIGRE
+VEADO
+LAGOSTA

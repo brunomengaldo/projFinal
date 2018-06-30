@@ -22,10 +22,10 @@ P W V T M P R Y E Q P Y A B A I O G B D
 Y T T X K E F A E I F J H Q G U L N D S
 
 7
-banana
-laranja
-acerola
-kiwi
-goiaba
-uva
-morango
+BANANA
+LARANJA
+ACEROLA
+KIWI
+GOIABA
+UVA
+MORANGO

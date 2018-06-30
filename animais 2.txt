@@ -20,10 +20,10 @@ N N N C I P Z V N T A C P X M H T
 
 
 7
-macaco
-gato
-pato
-coelho
-tigre
-veado
-lagosta
+MACACO
+GATO
+PATO
+COELHO
+TIGRE
+VEADO
+LAGOSTA

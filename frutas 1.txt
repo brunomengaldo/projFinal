@@ -17,10 +17,10 @@ X O N K T B T X S K A U E J A
 E T Q S K Z N O U I G S A U B
 
 7
-banana
-laranja
-acerola
-kiwi
-goiaba
-uva
-morango
+BANANA
+LARANJA
+ACEROLA
+KIWI
+GOIABA
+UVA
+MORANGO

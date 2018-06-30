@@ -18,10 +18,10 @@ S U Y I O C J W A A M V N I K
 
 
 7
-macaco
-gato
-pato
-coelho
-tigre
-veado
-lagosta
+MACACO
+GATO
+PATO
+COELHO
+TIGRE
+VEADO
+LAGOSTA
