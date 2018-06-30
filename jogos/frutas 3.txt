@@ -1,0 +1,31 @@
+20
+20
+W D F G M R R O A H M B O B M W M S W X
+E Y K P Q J I U A G T I V Z Y R W N B X
+H E A D X L E G Z R E K R I B A Z L H X
+G M L K J P D S O Q G S D L A C A A K B
+P S N A R G U B I F Q B O D N Y V N U I
+N E D D R W H S J I C K E Y A J D Y H H
+F K K F A A P B Y L W B H Q N Z F S M O
+G Y L A W L N Z M G A F O Z A M C O W K
+A P J L X K I J P H H F R X B R H H G W
+Q K Y O K E V I A X E G F F R R N G T V
+Y N R R A F O A I W L P K K A Y F H C O
+W Q U E O D Y C G U N J N Z C I S V J O
+F E T C K E N M A V U K W E M T E X K B
+X M N A Q D I Z C X J E P O Q Q U Q I P
+G I N G P D Z H C Y X E Y F N O G W W P
+P B M J J G A Q Y Q Q M J F G Q A W I T
+M A K Y G P M U I Y U I X L C W M N E L
+P M O R A N G O D O C T L E E J F F U O
+P W V T M P R Y E Q P Y A B A I O G B D
+Y T T X K E F A E I F J H Q G U L N D S
+
+7
+banana
+laranja
+acerola
+kiwi
+goiaba
+uva
+morango
