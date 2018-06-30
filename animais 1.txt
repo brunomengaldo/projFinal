@@ -1,0 +1,27 @@
+15
+15
+N N F X W C E R X X N O U F G
+Y H J L A G O S T A O X K M F
+K E H Q F S D G K J W M N V T
+P V K C D A Y P Q F H G Y I F
+M N T L O T G N O Z U W G X J
+R H V H Q E X A U F L R T N Y
+G G R M O Y L P H J E Y Y O U
+A A F D C N I H Z S Y Z H D E
+A T Q U B S H R O J O E R A L
+D O P I H X S Z V W I N A E N
+T V F I V J V R U B T R S V C
+W T Y F G O C A C A M E O A Y
+P B A A Q U H P A T O R N D D
+S D Z E A J X O P G O A X K J
+S U Y I O C J W A A M V N I K
+
+
+7
+macaco
+gato
+pato
+coelho
+tigre
+veado
+lagosta
