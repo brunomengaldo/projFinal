@@ -55,3 +55,13 @@ h2{
     border: 1px solid black;
     padding: 20px;
  }
+
+
+ input[type=text]
+    {
+        border-radius: 25px;
+        background:whitesmoke;
+        height: 80%;
+        width: 80%;
+        border: 1px solid black;
+    }
