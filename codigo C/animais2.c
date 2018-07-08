@@ -1,4 +1,7 @@
-#include <stdio.h>
+
+    
+
+    #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include "cgi_utilidades.c"
@@ -78,28 +81,22 @@ int main()
         print("Content-Type:text/html\n\n");
                     
                  
-                    printf("<body class=\"container\">")
-                        printf("<main>")
-                            printf("<h2><strong>Animais</strong></h2>")
-                            printf("<div class=\"jogo1\">")
-                                printf("N N F X W C E R X X N O U F G<br>")
-                                printf("Y H J <span class=\"lagosta %s\">L A G O S T A</span> O X K M F<br>", lagosta)
-                                printf("K E H Q F S D G K J W M N V <span class=\"tigre %s\">T</span><br>", tigre)
-                                printf("P V K <span class=\"coelho %s\">C</span> D A Y P Q F H G Y <span class=\"tigre %s\">I</span> F<br>", coelho, tigre)
-                                printf("M N T L <span class=\"coelho %s\">O</span> T G N O Z U W <span class=\"tigre %s\">G</span> X J<br>", coelho, tigre)
-                                printf("R H V H Q <span class=\"coelho %s\">E</span> X A U F L <span class=\"tigre %s\">R</span> T N Y<br>", coelho, tigre)
-                                printf("G <span class=\"gato %s\">G</span> R M O Y <span class=\"coelho %s\">L</span> P H J <span class=\"tigre %s\">E</span> Y Y <span class=\"veado %s\">O</span> U<br>", gato, coelho, tigre, veado)
-                                printf("A <span class=\"gato %s\">A</span> F D C N I <span class=\"coelho %s\">H</span> Z S Y Z H <span class=\"veado %s\">D</span> E<br>", gato, coelho, veado)
-                                printf("A <span class=\"gato %s\">T</span> Q U B S H R <span class=\"coelho %s\">O</span> J O E R <span class=\"veado %s\">A</span> L<br>", gato, coelho, veado)
-                                printf("D <span class=\"gato %s\">O</span> P I H X S Z V W I N A <span class=\"veado %s\">E</span> N<br>", gato, veado);
-                                printf("T V F I V J V R U B T R S <span class=\"veado %s\">V</span> C<br>", veado)
-                                printf("W T Y F G <span class=\"macaco %s\">O C A C A M</span> E O A Y<br>",macaco)
-                                printf("P B A A Q U H <span class =\"pato %s\">P A T O</span> R N D D<br>", pato)
-                                printf("S D Z E A J X O P G O A X K J<br>");
-                                printf("S U Y I O C J W A A M V N I K<br>");
-                            printf("</div>")
-                            printf("<br>")
-       // printf("<div class='found'>%s</div>", palavra);
+                   
+            printf("J S P L H Q G R K K C P X T L <br>");  
+            printf("P I H <span class=\"tigre %s\">T I G R E</span> Q <span class=\"pato %s\">P</span> N Z L N H <br>", tigre, pato);
+            printf("L L S V O S U G B X <span class=\"pato %s\">A</span> Q G C B <br>", pato);
+            printf("B K J D T M L K S H P <span class=\"pato %s\">T</span> F C J <br>", pato);
+            printf("G E T I <span class=\"lagosta %s\">L</span> O I H H Z X L <span class=\"pato %s\">O</span> B E <br>", lagosta, pato);
+            printf("<span class=\"coelho %s\">C</span> H G M G <span class=\"lagosta %s\">A</span> L N J Q K W K U S <br>", coelho, lagosta);
+            printf("<span class=\"coelho %s\">O</span> L N E S K <span class=\"lagosta %s\">G</span> E R D Q U L <span class=\"gato %s\">O</span> Q <br>", coelho, lagosta, gato);
+            printf("<span class=\"coelho %s\">E</span> S M <span class=\"veado %s\">O</span> U N U <span class=\"lagosta %s\">O</span> Z U F F Q <span class=\"gato %s\">T</span> U <br>", coelho, veado, lagosta, gato);
+            printf("<span class=\"coelho %s\">L</span> Z E U <span class=\"veado %s\">D</span> F C M <span class=\"lagosta %s\">S</span> C V Y G <span class=\"gato %s\">A</span> Y <br>",coelho, veado, lagosta, gato);
+            printf("<span class=\"coelho %s\">H</span> F H R K <span class=\"veado %s\">A</span> M K I <span class=\"lagosta %s\">T</span> A W V <span class=\"gato %s\">G</span> W <br>",coelho, veado, lagosta, gato);
+            printf("<span class=\"coelho %s\">O</span> K C E W C <span class=\"veado %s\">E</span> R Q I <span class=\"lagosta %s\">A</span> Z A I R <br>", coelho, veado, lagosta);
+            printf("A Y Q Z I P Q <span class=\"veado %s\">V</span> G A F F N L F <br>", veado);
+            printf("C U F F V Z D C V W W P L Y N <br>");
+            printf("K W E W V E N <span class=\"macaco %s\">O C A C A M</span> W X <br>", macaco);
+            printf("N N C I P Z V N T A C P X M H <br>");
     }
     /*if(qtdPalavrasEncontradas){
         printf("<hr>");
