@@ -1,0 +1,107 @@
+main {
+    text-align: center;
+    padding: 130px;
+    font-family: "Amatic SC", cursive;
+    font-size: 30.2px;
+    font-display: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+a{
+    color: #FFE4CD;
+}
+
+.brunao {
+    display: inline-block;
+}
+
+.fernando {
+    display: inline-block;
+}
+
+.thiago {
+    display: inline-block;
+}
+
+a:hover { 
+    background-color: #8F47B3;
+}
+
+
+@keyframes example {
+    0%   {background-color:#FD5B78;}
+    14.2%  {background-color:#FF9966; }
+    28.5%  {background-color:#FFCC33;}
+    42.8%  {background-color:#66FF66;}
+    57.1%  {background-color:#50BFE6; }
+    71.4%  {background-color:#4F69C6;}
+    85.7%  {background-color:#EE34D2;}
+    100% {background-color:#FD5B78;}
+}
+
+.opçoes, .quadrado {
+    background-color:#FD5B78;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    width: 550px;
+    position: relative;
+    bottom: 80px;
+    border-radius: 25px;
+    /*background: url(ciferri.jpg);*/
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    background-image: url(../imgs/cifferi.png);
+}
+.loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid black; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@keyframes disappear{
+    0.0001%{opacity: 1;}
+    99.0008%{opacity: 1;}
+}
+
+.box{
+    animation-name: disappear;
+    animation-duration: 5s;
+    opacity: 0;
+}
+
+@keyframes appear{
+
+    0.0000000001%{opacity: 0;}
+    99%{opacity: 0;}
+    
+}
+    .seguir{
+        opacity: 1;
+        animation: appear;
+        animation-duration: 5s;
+        position: relative;
+        bottom: 80px;
+    }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Caça Palavras Boladex - Frutas</title>
+        <link rel="icon" href="../imgs/cifferi.png">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <!--<link rel="stylesheet" type="text/css" media="screen" href="../estilos/jogo.css">-->
+    </head>
+    <style>
+            body {
+    background-image: url(../imgs/cifferi.png);
+}
+
+main{
+    background-color: #FFE4CD;
+    text-align: center;
+    padding-right: 261.172px;
+    padding-left: 261.172px;
+    padding-top: 10.859px;
+    padding-bottom: 270.859px;
+    font-size: 150%;
+    font-display: uppercase;
+    height: 504.094px;;
+    width: 217.188px;
+}
+
+h2{
+    font-family: "Amatic SC", cursive;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@keyframes example {
+    0%   {color:#FD5B78;}
+    14.2%  {color:#FF9966; }
+    28.5%  {color:#FFCC33;}
+    42.8%  {color:#66FF66;}
+    57.1%  {color:#50BFE6; }
+    71.4%  {color:#4F69C6;}
+    85.7%  {color:#EE34D2;}
+    100% {color:#FD5B78;}
+}
+.found {
+        color:#FD5B78;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+.selected {
+    background-color: rgb(221, 150, 19);
+}
+
+ .jogo1{
+    font-family: monospace;
+    width: 364.875px;
+    height: 360px; 
+    position: relative;
+    right: 107.5px;
+    top: 15px;
+    border: 1px solid black;
+    padding-left: 45px;
+    padding-right: 35.2px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+ }
+
+
+ input[type=text]
+    {
+        border-radius: 15px;
+        background:whitesmoke;
+        height: 20px;
+        width: 220px;
+        border: 1px solid black;
+        text-align: center;
+
+    }
+    </style>
+
+    <body class="container">
+        <main>
+            <h2>
+                <strong>Frutas</strong>
+            </h2>
+            <div class="jogo1">
+                Z T J R H D J U K T P F K P T<br>
+                V J S P L H Q G R K K C P X T<br>
+                K P I <span class="ACEROLA ">A</span> T E X L E Q Q N Z L N<br>
+                U L L S <span class="ACEROLA ">C</span> O S U G B X U Q <span class="GOIABA ">G</span> C<br>
+                O <span class="LARANJA ">A</span> K J D <span class="ACEROLA ">E</span> M L K S H P S <span class="GOIABA ">O</span> C<br>
+                Z <span class="LARANJA ">J</span> E T I O <span class="ACEROLA ">R</span> I H H Z X L <span class="GOIABA ">I</span> B<br>
+                E <span class="LARANJA ">N</span> H G M G Q <span class="ACEROLA ">O</span> N J Q K W <span class="GOIABA ">A</span> U<br>
+                K <span class="LARANJA ">A</span> L N E S K S <span class="ACEROLA ">L</span> R D Q U <span class="GOIABA ">B</span> L<br>
+                Z <span class="LARANJA ">R</span> S M A U N U R <span class="ACEROLA ">A</span> U F F <span class="GOIABA ">A</span> T<br>
+                X <span class="LARANJA ">A</span> Z E U <span class="BANANA ">A N A N A B</span> Y G U Q<br>
+                I <span class="LARANJA ">L</span> F H R K R M K I U A W V R<br>
+                H V K C E W <span class="MORANGO ">M O R A N G O</span> A I<br>
+                M A Y Q Z I P Q I <span class="UVA ">A</span> G F F N L<br>
+                A Q L <span class="KIWI ">I W I K</span> L Q <span class="UVA ">V</span> Y A H T E<br>
+                I C U F F V Z D C <span class="UVA ">U</span> W W P L Y<br>
+            </div>
+            <hr>
+            <form>
+                <input type="text" placeholder="Digite a palavra (letars maiúsculas)" name="palavra">
+            

@@ -1,0 +1,72 @@
+body {
+    background-image: url(../imgs/cifferi.png);
+}
+
+main{
+    background-color: #FFE4CD;
+    text-align: center;
+    padding-right: 261.172px;
+    padding-left: 261.172px;
+    padding-top: 10.859px;
+    padding-bottom: 270.859px;
+    font-size: 22px;
+    font-display: uppercase;
+    height: 504.094px;;
+    width: 217.188px;
+}
+
+h2{
+    font-family: "Amatic SC", cursive;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@keyframes example {
+    0%   {color:#FD5B78;}
+    14.2%  {color:#FF9966; }
+    28.5%  {color:#FFCC33;}
+    42.8%  {color:#66FF66;}
+    57.1%  {color:#50BFE6; }
+    71.4%  {color:#4F69C6;}
+    85.7%  {color:#EE34D2;}
+    100% {color:#FD5B78;}
+}
+.found {
+        color:#FD5B78;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+.selected {
+    background-color: rgb(221, 150, 19);
+}
+
+ .jogo1{
+    font-family: monospace;
+    width: 364.875px;
+    height: 360px; 
+    position: relative;
+    right: 107.5px;
+    top: 15px;
+    border: 1px solid black;
+    padding-left: 45px;
+    padding-right: 35.2px;
+    padding-bottom: 60px;
+    padding-top: 35px;
+ }
+
+
+ input[type=text]
+    {
+        border-radius: 15px;
+        background:whitesmoke;
+        height: 80%;
+        width: 80%;
+        border: 1px solid black;
+    }
