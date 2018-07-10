@@ -70,3 +70,9 @@ h2{
         width: 80%;
         border: 1px solid black;
     }
+
+    a:hover { 
+        background-color: #8F47B3;
+        border-bottom: none;
+    }
+    
